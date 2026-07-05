@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 function Register() {
 
-    const backendURL = "https://inventory-webapp-backend.railway.internal";
+    const backendURL = "http://inventory-webapp-backend.railway.internal:8080";
     const navigate = useNavigate();
     const initialValues = {
         username: "",
