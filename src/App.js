@@ -13,7 +13,7 @@ import { useNavigate } from 'react-router-dom'
 
 function App() {
 
-    const backendURL = "https://inventory-webapp-backend-production.up.railway.app:8080";
+    const backendURL = "https://inventory-webapp-backend-production.up.railway.app";
     const navigate = useNavigate();
     const [authState, setAuthState] = useState({
         username: "",

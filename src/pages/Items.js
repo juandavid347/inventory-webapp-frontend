@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 
 function Items() {
 
-    const backendURL = "https://inventory-webapp-backend-production.up.railway.app:8080";
+    const backendURL = "https://inventory-webapp-backend-production.up.railway.app";
     const navigate = useNavigate();
     const [listOfItems, setListOfItems] = useState([]);
     

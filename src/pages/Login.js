@@ -7,7 +7,7 @@ import { AuthContext } from '../helpers/AuthContext'
 
 function Login() {
 
-    const backendURL = "https://inventory-webapp-backend-production.up.railway.app:8080";
+    const backendURL = "https://inventory-webapp-backend-production.up.railway.app";
     const { setAuthState } = useContext(AuthContext);
     const navigate = useNavigate();
     const initialValues = {
